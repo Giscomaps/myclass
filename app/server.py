@@ -15,6 +15,8 @@ import requests
 Port = int(os.environ.get('PORT', 50000))
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-8EVtqHf-gt2T726czEL5ymxrdmbdZdc'
+#https://drive.google.com/uc?export=download&id=1-8EVtqHf-gt2T726czEL5ymxrdmbdZdc
+
 export_file_name = 'rocks.pkl'
 
 classes = ['andesite', 'sandstone', 'basalt', 'dolomite_limestone', 'carbon', 'chert', 'coquina', 'conglomerate', 'diorite', 'schist', 'gabbro','gneiss', 'granite', 'peridotite', 'shale', 'rhyolite']
