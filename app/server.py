@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 import requests
 
 # port
-Port = int(os.environ.get('PORT', 5000))
+Port = int(os.environ.get('PORT', 50000))
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-8EVtqHf-gt2T726czEL5ymxrdmbdZdc'
 #https://drive.google.com/uc?export=download&id=1-8EVtqHf-gt2T726czEL5ymxrdmbdZdc
